@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Brady Goodwin</title>
+</head>
+
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="images/profile_circle.png" alt="">
+            <h2>Brady Goodwin</h2>
+            <p>Orlando, Florida</p>
+            <a href="https://www.linkedin.com/in/austin-goodwin-165826271/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ab-goodwin"><i class="fab fa-github"></i></a>
+            </br>
+            <p>Southern New Hampshire University</p>
+            <p>2026</p>
+        </div>
+        <div class="section-2">
+            <h2>Professional Self-Assessment</h2>
+            <p>Completing my Computer Science Degree and Building this ePortfolio has helped me move from being
+                a student focused on just making code work to a professional focused on clean, secure, and maintainable
+                software design. Throughout my time in the program, I have learned that building functional code is only
+                the first step. Real software engineering requires thinking aobut how an application will scale, how the
+                data is organized, and it's security. As a professional pursuing a career in Data Analytics, this portfolio
+                demonstrates that I have the foundational software development, algorithmic, and database skills necessary
+                to build reliable applications that can securely store and process data.</p>
+
+            <h2>Professional Competencies</h2>
+            <h3>Team Collaboration and Stakeholder Communication</h3>
+            Software development is collaborative, and communication of design decisions is just as important as writing code.
+            This capstone allowed me to demonstrate this by producing an infomral code review video to walk my professor or peers through my code and enhancement plans. Beyond this project - my coursework such as building full stack web applications has taught me to collaborate in team environments, document requirements and presenting technical solutions that align with stakeholder goals.
+
+            <h3>Software Engineering and Database Design</h3>
+            Good software design is reliant on organization and separation of responsibilities. My approach focuses on making code modular, such as separating interface files from database operations, instead using dedicated helper class to simplify maintenance. In database design I prioritize data integrity and move towards unique primary keys. Expanding schemas to include structured fields to ensure data stays reliable and organized for long term business decisions.
+
+            <h3>Algorithms and Data Structures</h3>
+            An application's performance depends how it handles data. By utilizing model classes and data structures such as ArrayLists, I can separate raw database tiers from the user interface. This lets me implment logic for searching, sorting, and filtering directly in memory before the display updates. This structured approach is quick and user friendly even as the dataset gets larger.
+
+            <h3>Security</h3>
+            Security has to be build directly into an application's architecture from the beginning. Developing a security mindset means you need to anticipate how data can be compromised and use defensive coding to reduce those vulnerabilities early on. My technical apporach includes strict input validation, checking for empty fields, and hashing user sensative information. Protecting data upon input keeps the entire system safer and more reliable.</p>
+
+            <h2>Summary of Technical Artifacts</h2>
+            <p>The technical skills showcased in this portfolio highlights the incremental improvement of a mobile inventory management application. The project was a basic mobile app with tightly coupled logic and minimal features. I systematically imrpvoed it across three enhancements to demonstrate my skills in Computer Science:
+
+    <h3>Software Design and Engineering (Enhancement One):</h3> 
+    Focused on structural organization and security improvements. I extracted the raw SQLite operations out of the activity files and centralized them into a new DatabaseHelper class. I also included password hashing and strict input validation to protect user information.
+
+    <h3>Algorithms and Data Structures (Enhancement Two):</h3> 
+    Focused more on structure and performance. I moved away from relying soley on raw database cursors to display data, and implemented an InventoryItem model class, and ArrayLists to manage data in memory. This let me add dynamic searching, sorting, and filters.
+
+    <h3>Databases (Enhancement Three):</h3>
+    Focused on data integrity and database architecture. I changed the table structure to utilize a unique item ID as the primary key for all updates and deletions, replacing the difficult name based identifier. I also expanded the schema to include categories, and individual low stock threshholds.</p>
+
+<p>Through these three enhancements, I demonstrated a cohesive and industry ready understanding of computer science principles, and turned a basic application into an optimized, secure, and more professional software solution.</p>
+            <h2>Links</h2>
+            <div class="project-cards">
+
+    <a class="project-card" href="https://github.com/ab-goodwin/CS499-Mobile-Inventory-App/tree/inital-cs360-project">
+         <div class="card-header">
+            <i class="fas fa-seedling"></i>
+            <h3>Unmodified Project</h3>
+        </div>
+        <p>Initial CS360 Mobile Inventory App</p>
+    </a>
+
+    <a class="project-card" href="https://github.com/ab-goodwin/CS499-Mobile-Inventory-App/tree/software-design-and-engineering-enhancement">
+        <div class="card-header">
+            <i class="fas fa-cogs"></i>
+            <h3>Enhancement One</h3>
+        </div>
+        <p>Software Design and Engineering</p>
+    </a>
+
+    <a class="project-card" href="https://github.com/ab-goodwin/CS499-Mobile-Inventory-App/tree/Algorithms-and-Data-Structure-Enhancement">
+        <div class="card-header">
+            <i class="fas fa-project-diagram"></i>
+            <h3>Enhancement Two</h3>
+        </div>
+        <p>Algorithms and Data Structures</p>
+    </a>
+
+    <a class="project-card" href="https://github.com/ab-goodwin/CS499-Mobile-Inventory-App/tree/databases-enhancement">
+        <div class="card-header">
+            <i class="fas fa-database"></i>
+            <h3>Enhancement Three</h3>
+        </div>
+        <p>Databases</p>
+    </a>
+
+    <a class="project-card" href="https://github.com/ab-goodwin/CS499-Mobile-Inventory-App/tree/main">
+        <div class="card-header">
+            <i class="fas fa-flag-checkered"></i>
+            <h3>Completed Project</h3>
+        </div>
+        <p>Final CS499 Mobile Inventory App</p>
+    </a>
+
+            
+            
+            
+            <h2>Original Code Review</h2>
+            <iframe width="420" height="345" src="https://youtu.be/ktxUoeDEmtY"> </iframe>
+            <a href="https://youtu.be/ktxUoeDEmtY">YouTube Redirect</a>
+
+        </video>
+            <h2>Contact</h2>
+            <p>ab.goodwin@yahoo.com</p>
+            <h1> </h1>
+        </div>
+    </div>
+</body>
+
+</html>

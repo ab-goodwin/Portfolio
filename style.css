@@ -1,0 +1,160 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #101214;
+    color: #aaabad;
+
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #aaabad;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 6px 0;
+    font-size: 1.1rem;
+    color: #aaabad;
+    width: fit-content;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Card */
+.project-card{
+    display: block;
+    background-color: #1a1d21;
+    border: 1px solid #2a2d31;
+    border-radius: 10px;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: #aaabad;
+    transition: all 0.2s ease;
+}
+
+/* Header row (icon + title) */
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon */
+.card-header i{
+    font-size: 1.2rem;
+    color: #ffffffcc;
+    min-width: 20px;
+}
+
+/* Title */
+.card-header h3{
+    margin: 0;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Description */
+.project-card p{
+    margin: 6px 0 0 30px; /* aligns under text after icon */
+    font-size: 0.95rem;
+    color: #aaabad;
+}
+
+/* Hover */
+.project-card:hover{
+    transform: translateY(-4px);
+    border-color: #ffffff33;
+    background-color: #22262b;
+    color: #fff;
+}
+
+}
